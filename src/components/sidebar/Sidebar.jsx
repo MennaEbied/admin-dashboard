@@ -20,48 +20,53 @@ function Sidebar() {
         <hr />
         <div className="center">
             <ul>
+                <p className="title">MAIN</p>
               <li>
-                <DashboardIcon/>
+                <DashboardIcon className="icon"/>
                 <span>Dashboard</span>
               </li>
+              <p className="title">LISTS</p>
               <li>
-                <PersonOutlineOutlinedIcon/>
+                <PersonOutlineOutlinedIcon className="icon"/>
                 <span>Users</span>
               </li>
               <li>
-                <ProductionQuantityLimitsIcon/>
+                <ProductionQuantityLimitsIcon className="icon"/>
                 <span>Products</span>
               </li>
               <li>
-                <CreditCardOutlinedIcon/>
+                <CreditCardOutlinedIcon className="icon"/>
                 <span>Orders</span>
               </li>
               <li>
-                <LocalShippingIcon/>
+                <LocalShippingIcon className="icon"/>
                 <span>Delivery</span>
               </li>
+              <p className="title">USEFUL</p>
               <li>
-                <BarChartIcon/>
+                <BarChartIcon className="icon"/>
                 <span>Stats</span>
               </li>
               <li>
-                <NotificationsOutlinedIcon/>
+                <NotificationsOutlinedIcon className="icon"/>
                 <span>Notifications</span>
               </li>
+              <p className="title">SERVICE</p>
               <li>
-                <PsychologyOutlinedIcon/>
+                <PsychologyOutlinedIcon className="icon"/>
                 <span>Logs</span>
               </li>
               <li>
-                <SettingsOutlinedIcon/>
+                <SettingsOutlinedIcon className="icon"/>
                 <span>Settings</span>
               </li>
+              <p className="title">USER</p>
               <li>
-                <AccountCircleOutlinedIcon/>
+                <AccountCircleOutlinedIcon className="icon"/>
                 <span>Profile</span>
               </li>
               <li>
-                <LogoutOutlinedIcon/>
+                <LogoutOutlinedIcon className="icon"/>
                 <span>Logout</span>
               </li>
             </ul>
