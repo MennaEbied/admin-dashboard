@@ -1,7 +1,9 @@
-import Navbar from "../../components/navbar/Navbar"
-import Sidebar from '../../components/sidebar/Sidebar'
-import Widget from "../../components/widget/widget"
-import "./home.scss"
+import Navbar from "../../components/navbar/Navbar";
+import Sidebar from '../../components/sidebar/Sidebar';
+import Widget from "../../components/widget/widget";
+import Featured from "../../components/featured/featured";
+import "./home.scss";
+import Chart from "../../components/chart/Chart";
 
 const Home = () => {
   return (  
@@ -14,6 +16,10 @@ const Home = () => {
           < Widget type="order"/>
           < Widget type="earning"/>
           < Widget type="balance"/>
+        </div>
+        <div className="charts">
+          <Featured/>
+          <Chart/>
         </div>
       </div>
     </div>
