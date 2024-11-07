@@ -26,16 +26,20 @@ const DataTable = () => {
           Add New
         </Link>
       </div>
-       <Paper sx={{ height: 400, width: '100%' }}>
+      
       <DataGrid
+        className="dataGrid"
         rows={userRows}
         columns={userColumns.concat(actionColumn)}
         initialState={{ pagination: { paginationModel } }}
         pageSizeOptions={[5, 10]}
         checkboxSelection
-        sx={{ border: 0 }}
+        sx={{ 
+          border: 0,
+          '&.MuiDataGrid-cell': { backgroundColor: '#f0f0f0' }
+         }}
       />
-    </Paper>
+    
     </div>
   )
 }
