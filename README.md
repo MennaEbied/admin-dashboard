@@ -4,8 +4,11 @@ This project is a customizable Admin Dashboard built using React and React Route
 
 ## Clone The repository
 git clone https://github.com/MennaEbied/admin-dashboard.git
+
 cd admin-dashboard
 
 ## Running Project
+
 npm install
+
 npm run dev
